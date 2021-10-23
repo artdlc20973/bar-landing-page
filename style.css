@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Birthstone Bounce", cursive, sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("https://i.ibb.co/c1pT2j3/bar1.jpg") no-repeat center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner {
+  color: #fff;
+  font-size: 5.7rem;
+  font-weight: 600;
+  -webkit-text-stroke: 0.1px #94252b;
+  text-shadow: 3px 2px#000;
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+.content {
+  color: #8eee76;
+  font-size: 2.5rem;
+  word-spacing: 2.5px;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px#000;
+  text-align: center;
+  position: relative;
+  top: 23%;
+}
+ul li a img {
+  border: 1px solid white;
+}
+ul li a {
+  display: inline-block;
+}
+ul li {
+  font-size: 20px;
+}
